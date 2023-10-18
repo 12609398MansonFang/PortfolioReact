@@ -1,0 +1,69 @@
+{
+    "home":
+    [
+        {
+            "title": "Hi I am Manson",
+            "role": "Graduate Engineer",
+            "description": "I earned my engineering degree from the University of Technology Sydney. My goal is to learn, university has done wonders for me and my development there is an abundance of untapped potiontal for I which i still haven't explored."
+        }
+    ],
+
+    "education":
+    [
+        {
+            "institude": "University of Technology, Sydney",
+            "course": "Bachelor of Engineering Majoring Mechanical and Mechatronic Engineering with Diploma in Professional Practice",
+            "duration": "03/2016 - 09/2022"
+        }
+    ],
+
+    "projects":
+    [
+        {
+            "name":"Simple Website",
+            "description":"A straightforward and uncomplicated website, featuring clickable buttons that navigate to different HTML pages. It represents my initial foray into coding with JavaScript, relying solely on HTML and CSS."
+        },
+
+        {
+            "name":"JavaScript Game",
+            "description":"An easy-to-understand web-based game, incorporating features like keystroke detection, collision detection, score tracking, and the utilization of the canvas element. It marks my initial venture into coding with JavaScript functions, in conjunction with HTML and CSS."
+        },
+
+        {
+            "name":"Portfolio",
+            "description":"My portfolio, constructed entirely from the ground up, marks my maiden experience with the React.js library and JSON, combining my prior expertise in JavaScript, HTML, and CSS."
+        },
+
+        {
+            "name":"Python Game (Protect The Cheese)",
+            "description":"An interactive and entertaining Python-based guessing game with a user-friendly Tkinter GUI, offering word-based challenges, engaging and approachable hints, and a visually engaging design for an immersive and enjoyable player experience."
+        }
+    ],
+
+    "experience":
+    [
+        {
+            "name":"Woolworths, Chatswood East",
+            "position":"Grocery Assistant Department Manager",
+            "description":"Provided to managerial support for grocery manage through running the day-to-day routine and operation when required, provided coaching and training team members whilst maintained the standard and integrity of both the shop floor, back of house and inventory standard",
+            "duration":"02/2023 – Present"
+        },
+
+        {
+            "name":"Woolworths, Chatswood East",
+            "position":"Grocery Team Member",
+            "description":"Undertook grocery routine ranging from morning shop scan, processing stock, inventor checks and back of house maintenance",
+            "duration":"10/2022 – 02/2023"
+        },
+
+        {
+            "name":"Woolworths. Neutral Bay Village",
+            "position":"Grocery Team Member",
+            "description":"Undertook grocery routine ranging from morning shop scan, processing stock, inventor checks and back of house maintenance",
+            "duration":"05/2021 – 10/2022"
+        }
+    ]
+
+
+}
+
