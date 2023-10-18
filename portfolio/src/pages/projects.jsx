@@ -1,7 +1,8 @@
 import data from "../data/data.json";
-import img1 from "../img/project4.jpg";
+import img1 from "../img/project1.jpg";
 import img2 from "../img/project2.jpg";
 import img3 from "../img/project3.jpg";
+import img4 from "../img/project4.jpg";
 
 export default function Projects(){
     return(
@@ -9,10 +10,10 @@ export default function Projects(){
         <section id = "projectsSection" className="projectspage_section">
             <div className="projectcontainer_section">
 
-                <a className="project1" href="https://github.com/12609398MansonFang/protectcheesepy.git">
+                <a className="project1" href="https://github.com/12609398MansonFang/ProtectTheCheese.git">
 
                     <div className="project1_image">
-                        <img src = {img1}></img>
+                        <img src = {img4}></img>
                     </div>
 
                     <div className="project1_content">
@@ -22,7 +23,7 @@ export default function Projects(){
 
                 </a>
 
-                <a className="project2" href="https://github.com/12609398MansonFang/jsgame.git">
+                <a className="project2" href="https://github.com/12609398MansonFang/WatchTheWalls.git">
 
                     <div className="project2_image">
                         <img src = {img2}></img>
@@ -36,7 +37,7 @@ export default function Projects(){
 
                 </a>
 
-                <a className="project3" href="https://github.com/12609398MansonFang/porfolioreact.git">
+                <a className="project3" href="https://github.com/12609398MansonFang/PortfolioReact.git">
 
                     
                         <div className="project3_image">
