@@ -1,0 +1,124 @@
+{
+    "home":
+    [
+        {
+            "content":"Greetings, everyone! I'm Manson Fang, and a warm welcome to my portfolio."
+        }
+    ],
+
+    "aboutme":
+    [
+        {
+            "content":"As a graduate engineer from the University of Technology Sydney, my educational journey has fueled my development, yet there's still a wealth of untapped knowledge to explore."
+        }
+    ],
+
+    "projects":
+    [
+        {
+            "content":"Check out my personal projects through clicking the button below.",
+            "project1":
+            [
+                {
+                    "projectname":"3D Portfolio",
+                    "description":"3D portfolio that provides interactive functionality and fun animations. Built with Javascript, React, Three.js, Tailwind CSS, and Blender."
+                }
+            ],
+            "project2":
+            [
+                {
+                    "projectname":"Protect The Cheese (JavaScript Browser Game)",
+                    "description":"An interactive and entertaining browser-based guessing game with a user-friendly React GUI, offering word-based challenges, engaging and approachable hints, and a visually engaging design for an immersive and enjoyable player experience."
+                }
+            ],
+            "project3":
+            [
+                {
+                    "projectname":"Hit The Skies (JavaScript Browser Game)",
+                    "description":"A cool JavaScript flying game with fun controls and great visuals. The plan is to build a simulator using real-time flight data, incorporating both global and local coordinates. Exciting updates, including collision detection and a weapons system, are on the way for even more fun."
+                }
+            ],
+            "project4":
+            [
+                {
+                    "projectname":"3D Slots (JavaScript Browser Game)",
+                    "description":"A cool virtual slot machine game, with fun and engaging interactions. Built with Javascript, React, Three.js, Tailwind CSS, and Blender."
+                }
+            ]
+        }
+    ],
+
+    "work":
+    [
+        {
+            "content":"Check out my work experience through clicking the button below.",
+            "experience":
+            [
+                {
+                    "name":"Woolworths, Chatswood East",
+                    "position":"Grocery Assistant Department Manager",
+                    "description":"Provided to managerial support for grocery manage through running the day-to-day routine and operation when required, provided coaching and training team members whilst maintained the standard and integrity of both the shop floor, back of house and inventory standard",
+                    "duration":"02/2023 – Present"
+                },
+        
+                {
+                    "name":"Woolworths, Chatswood East",
+                    "position":"Grocery Supervisor",
+                    "description":"Managed the opening of a brand-new retail store. Undertook grocery routine ranging from morning shop scan, processing stock, inventor checks and back of house maintenance",
+                    "duration":"10/2022 – 02/2023"
+                },
+        
+                {
+                    "name":"Woolworths. Neutral Bay Village",
+                    "position":"Grocery Supervisor",
+                    "description":"Undertook grocery routine ranging from morning shop scan, processing stock, inventor checks and back of house maintenance",
+                    "duration":"05/2021 – 10/2022"
+                }
+            ]
+        }
+    ],
+
+    "contact":
+    [
+        {
+            "content":"Lets Get in Touch"
+        }
+    ],
+
+    "disclaimer":
+    [
+        {
+            "content":"This portfolio website, has been crafted by Manson Fang in good faith for personal promotion and career progression, explicitly disclaims any commercial intent or financial gain, therefore any proposition regarding the use of this website commercially, will be rejected. The content and services showcased represent Manson Fang's personal work and achievements, with no compensation received and any material that has been externally sourced, has been referenced and detailed below. Users are strictly prohibited from misusing the website, and Manson Fang disclaims liability for any resulting damages. The website is provided at face value without warranties, and may lack periodic updates, prompting users to contact Manson Fang directly for the latest information. By using the website, users acknowledge and agree to these terms." 
+        }
+    ],
+
+    "credits":
+    [
+        {
+            "ModelRef":"Island",
+            "ModelName":"Stylized 3D Floating Island And Mine House", 
+            "ModelSource":"https://sketchfab.com/3d-models/stylized-3d-floating-island-and-mine-house-3cb24182a8504d439ee4e3c500565ac5",
+            "Author":"Skyler Muffin",
+            "AuthorLink":"https://sketchfab.com/boopdesignstudio"
+        },
+
+        {
+            "ModelRef":"Plane",
+            "ModelName":"Low Poly Scorpion Gunship From Avatar", 
+            "ModelSource":"https://www.cgtrader.com/free-3d-models/aircraft/helicopter/low-poly-scorpion-gunship-from-avatar",
+            "Author":"jigeobjeohin",
+            "AuthorLink":"https://www.cgtrader.com/jigeobjeogin"
+        },
+
+        {
+            "ModelRef":"Soldier",
+            "ModelName":"Soldier", 
+            "ModelSource":"https://sketchfab.com/3d-models/soldier-ba97db9f448549269a9fed67f9ca9bc1",
+            "Author":"Lahcen.el",
+            "AuthorLink":"https://sketchfab.com/Lahcen.el"
+        }
+
+    ]
+
+}
+
