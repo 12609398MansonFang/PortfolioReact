@@ -9,6 +9,7 @@ import MyCV from './Pages/MyCV'
 
 import LeftLogo from './Assets/Images/Left.png'
 import RightLogo from './Assets/Images/Right.png'
+import BGImg from './Assets/Images/Background.jpg'
 
 const App = () => {
     const [ windowDimension, setWindowDimension] = useState({winWidth: window.innerWidth, winHeight: window.innerHeight})
@@ -64,39 +65,43 @@ const App = () => {
     }
 
   return (
-    <div className='PortfolioContainer w-full h-screen flex flex-col'>
+    <div className='PortfolioContainer w-full h-screen flex flex-col'
+        style={{backgroundImage: `url(${BGImg})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center'}}
+    >
       <div className='Header flex items-center justify-between'>
 
         <div className='HeaderCV pl-3 pt-3'>
 
             <button 
-              className='hover:font-bold '
+              className='font-bold hover:text-slate-200'
               onClick={() => setPage(5)}
-              >My Resume</button>
+              >My Resume
+            </button>
 
         </div>
 
         <div className='HeaderOther flex justify-end space-x-6 px-8 pt-4'>
 
-
           <button
-            className='hover:font-bold'
+            className='font-bold hover:text-slate-200'
             onClick={() => setPage(0)}
           >About me</button>  
 
           <button 
-            className='hover:font-bold'
+            className='font-bold hover:text-slate-200'
             onClick={() => setPage(1)}
           >Education</button>
 
 
           <button 
-            className='hover:font-bold' 
+            className='font-bold hover:text-slate-200' 
             onClick={() => setPage(2)}
           >Projects</button>
 
           <button 
-            className='hover:font-bold' 
+            className='font-bold hover:text-slate-200' 
             onClick={() => setPage(3)}
           >Work Experience</button>
           
@@ -130,7 +135,7 @@ const App = () => {
       <div className='Footer flex justify-end space-x-4 px-8'>
 
         <button 
-          className='hover:font-bold'
+          className='font-bold hover:text-slate-200'
           onClick={() => setPage(4)}
           >Contact Me</button>
 

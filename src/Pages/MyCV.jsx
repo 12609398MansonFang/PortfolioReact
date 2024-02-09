@@ -19,7 +19,8 @@ const ContentContainerStyle = (Height) =>
     padding: 35,
     width: '90%', 
     height: 0.85 * Height,
-    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.5)'
+    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.5)',
+    background: 'white'
 })
 
 const MyCV = ({Height}) => {

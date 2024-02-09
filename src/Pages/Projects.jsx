@@ -22,7 +22,9 @@ const ContentContainerStyle = (Height) =>
     padding: 35,
     width: '90%', 
     height: 0.85 * Height,
-    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.5)'
+    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.5)',
+    background: 'white',
+    margin: 'auto',
 })
 
 const ProjectLink1 = () => {
@@ -55,7 +57,7 @@ const ProjectGitLink2 = () => {
 
 const ProjectLink3 = () => {
     const link = document.createElement('a')
-    link.href = 'https://mansonfangportfolio.com/'
+    link.href = 'https://mansonfang3dportfolio.com/'
     link.target = '_blank';
     link.click();
 }
@@ -69,14 +71,14 @@ const ProjectGitLink3 = () => {
 
 const ProjectLink4 = () => {
     const link = document.createElement('a')
-    link.href = 'https://mansonfangportfolio.com/'
+    link.href = 'https://mansonfang3dportfolio.com/'
     link.target = '_blank';
     link.click();
 }
 
 const ProjectGitLink4 = () => {
     const link = document.createElement('a')
-    link.href = 'https://mansonfangportfolio.com/hittheskies'
+    link.href = 'https://github.com/12609398MansonFang/3DPortfolio'
     link.target = '_blank';
     link.click();
 }
@@ -108,7 +110,7 @@ const Projects = ({Height}) => {
                     }}
                 >
 
-                    <div className='flex flex-col space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0'>
+                    <div className='flex flex-col space-x-0 space-y-4 md:flex-row md:space-x-4 md:space-y-0 md:pl-40 pr-40'>
                         
                         <div className='WebDevContainer'>
                             <h1 className='font-serif font-bold text-lg'>Web Development</h1>

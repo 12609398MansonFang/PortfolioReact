@@ -25,7 +25,8 @@ const ContentContainerStyle = (Height) =>
     padding: 35,
     width: '90%', 
     height: 0.85 * Height,
-    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.5)'
+    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.5)',
+    background: 'white'
 })
 
 const ResumeDownload = () => {
@@ -48,12 +49,12 @@ const Linkedin = () => {
 
 const GitHub = () => {
     const link = document.createElement('a')
-    link.href = 'https://github.com/12609398MansonFang/3DPortfolio'
+    link.href = 'https://github.com/12609398MansonFang/PortfolioReact'
     link.target = '_blank';
     link.click();
 }
 
-const AboutMe = ({Width, Height}) => {
+const AboutMe = ({Height}) => {
     return (
         <div className='PageContainer' 
             style={PageContainerStyle(Height)}

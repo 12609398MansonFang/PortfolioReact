@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com'
 
+import img from '../Assets/Images/ContactImage.jpg'
+
 const PageContainerStyle = (Height) => 
 ({
     display: 'flex',
@@ -19,7 +21,8 @@ const ContentContainerStyle = (Height) =>
     padding: 35,
     width: '90%', 
     height: 0.85 * Height,
-    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.5)'
+    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.5)',
+    background: 'white'
 })
 
 const Contact = () => {
@@ -74,12 +77,13 @@ const Contact = () => {
                 />
             <h2>Message:</h2>
             <textarea
+                className='h-48'
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
             />
             <button 
                 type='submit'
-                className='bg-white mt-5 p-2 rounded-md text-sm hover:bg-slate-100'
+                className='bg-white mt-5 p-2 rounded-md text-sm hover:bg-slate-200'
             >
                 SUBMIT
             </button>
@@ -89,11 +93,17 @@ const Contact = () => {
 
 const ContactMe = ({Height}) => {
     return (
-        <div className='PageContainer' 
-                style={PageContainerStyle(Height)}
+        <div 
+            className='PageContainer' 
+            style={PageContainerStyle(Height)}
             >
-                <div className='ContactMeContainer'
-                    style={ContentContainerStyle(Height)}
+                <div 
+                    className='ContactMeContainer'
+                    style={{...ContentContainerStyle(Height),
+                            backgroundImage: `url(${img})`,
+                            backgroundSize: 'cover', 
+                            backgroundPosition: 'center', 
+                    }}
                 >
                     <h1 className='ContactMeTitle'
                         style={{fontFamily: 'Serif',
@@ -101,8 +111,8 @@ const ContactMe = ({Height}) => {
                     >   
                         Contact Me
                     </h1>
-
-                    <div className='bg-slate-200 px-2 py-3 rounded-sm'>
+                    
+                    <div className='Project2 bg-slate-100' style={{display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: '0 4px 12px 0px rgba(0, 0, 0, 0.5)', width: 250, height: 420}}>
                         <Contact/>
                     </div>
                     
