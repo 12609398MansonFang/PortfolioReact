@@ -112,11 +112,21 @@ const ContactMe = ({Height}) => {
                         Contact Me
                     </h1>
                     
-                    <div className='Project2 bg-slate-100' style={{display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: '0 4px 12px 0px rgba(0, 0, 0, 0.5)', width: 250, height: 420}}>
-                        <Contact/>
+                    <div
+                        className='ScrollableContent flex justify-center items-start'
+                        style={{
+                                overflowX: 'auto',
+                                maxHeight: '120vh',
+                                width: '100%',
+                                paddingLeft: '15px',
+                                paddingRight: '15px',                    
+                                }}                    
+                    >
+                        <div className='Project2 bg-slate-100' style={{display: 'flex', flexDirection: 'column', alignItems: 'center', boxShadow: '0 4px 12px 0px rgba(0, 0, 0, 0.5)', width: 250, height: 420}}>
+                            <Contact/>
+                        </div>
                     </div>
                     
-
                 </div>
         </div>
     )

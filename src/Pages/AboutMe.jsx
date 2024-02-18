@@ -69,37 +69,49 @@ const AboutMe = ({Height}) => {
                     About Me
                 </h1>
 
-                <div className="ContentContainer flex flex-col md:flex-row items-center justify-center md:justify-between">
-                    <div className="space-y-4 md:w-1/2 text-center md:text-left">
-                        <p className="font-bold font-serif">{Data.home[0].content}</p>
-                        <p className="font-serif">{Data.aboutme[0].content}</p>
-                        <div className="flex justify-center space-x-6 md:justify-start md:space-x-6 p-2">
-                        <button
-                            className={`w-12 h-12 p-1 text-sm items-center justify-center flex font-bold text-white bg-black hover:rounded-lg hover:border-slate-300 hover:border-2`}
-                            onClick={ResumeDownload}
-                        >
-                            CV
-                        </button>
-                        <button className="flex items-center justify-center" onClick={Linkedin}>
-                            <img
-                                src={LinkedInLogo}
-                                alt="LinkedIn"
-                                className='w-12 h-12 hover:rounded-lg hover:border-slate-300 hover:border-2'
-                            />
-                        </button>
-                        <button className="flex items-center justify-center" onClick={GitHub}>
-                            <img
-                                src={GithubLogo}
-                                alt="Github"
-                                className='w-12 h-12 hover:rounded-lg hover:border-slate-600 hover:border-2'
-                            />
-                        </button>
+                <div
+                    className='ScrollableContent flex items-start'
+                    style={{
+                            overflowX: 'auto',
+                            maxHeight: '120vh',
+                            width: '100%',
+                            paddingLeft: '15px',
+                            paddingRight: '15px',                    
+                            }}                  
+                >
+                    <div className="ContentContainer flex flex-col md:flex-row items-center justify-center md:justify-between">
+                        <div className="space-y-4 md:w-1/2 text-center md:text-left">
+                            <p className="font-bold font-serif">{Data.home[0].content}</p>
+                            <p className="font-serif">{Data.aboutme[0].content}</p>
+                            <div className="flex justify-center space-x-6 md:justify-start md:space-x-6 p-2">
+                            <button
+                                className={`w-12 h-12 p-1 text-sm items-center justify-center flex font-bold text-white bg-black hover:rounded-lg hover:border-slate-300 hover:border-2`}
+                                onClick={ResumeDownload}
+                            >
+                                CV
+                            </button>
+                            <button className="flex items-center justify-center" onClick={Linkedin}>
+                                <img
+                                    src={LinkedInLogo}
+                                    alt="LinkedIn"
+                                    className='w-12 h-12 hover:rounded-lg hover:border-slate-300 hover:border-2'
+                                />
+                            </button>
+                            <button className="flex items-center justify-center" onClick={GitHub}>
+                                <img
+                                    src={GithubLogo}
+                                    alt="Github"
+                                    className='w-12 h-12 hover:rounded-lg hover:border-slate-600 hover:border-2'
+                                />
+                            </button>
+                            </div>
+                        </div>
+                        <div className="flex items-center justify-center md:w-1/2">
+                            <img src={Portrait} style={{ width: '100%', maxWidth: '220px', height: 'auto' }} />
                         </div>
                     </div>
-                    <div className="flex items-center justify-center md:w-1/2">
-                        <img src={Portrait} style={{ width: '100%', maxWidth: '220px', height: 'auto' }} />
-                    </div>
                 </div>
+
             </div>
         </div>
     )
