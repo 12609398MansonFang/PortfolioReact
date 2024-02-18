@@ -80,10 +80,6 @@ const WorkExperience = ({Height}) => {
                         
                     </div>
                 </div>
-
-
-                
-
             </div>
         </div>
     )

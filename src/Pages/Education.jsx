@@ -82,7 +82,6 @@ const Education = ({Height}) => {
 
                     </div>
 
-
                 </div>
             </div>
         </div>

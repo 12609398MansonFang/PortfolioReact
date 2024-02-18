@@ -266,15 +266,6 @@ const Projects = ({Height}) => {
                     </div>
                     
                 </div>
-
-
-
-
-
-
-
-
-
             </div>
         </div>
     )
